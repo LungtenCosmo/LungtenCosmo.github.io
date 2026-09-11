@@ -1,0 +1,64 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="News, field notes and daily blog from Dr. Lungten Dorji's conservation work in Bhutan." />
+  <title>News & Field Notes | Lungten Dorji</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/index.html" aria-label="Home"><span class="brand-mark">LD</span><span>Lungten Dorji</span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="/index.html#about">About</a>
+      <a href="/index.html#projects">Projects</a>
+      <a href="/index.html#research">Research</a>
+      <a href="/index.html#publications">Outputs</a>
+      <a href="/news.html">News & Blog</a>
+      <a href="/index.html#contact" class="nav-cta">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="blog-hero">
+      <div class="blog-hero-inner reveal">
+        <div class="section-label">News · field notes · daily blog</div>
+        <h1>Notes from conservation practice.</h1>
+        <p>Project updates, field observations, workshops, research milestones and short reflections from my day-to-day work in wildlife conservation and biodiversity science.</p>
+      </div>
+    </section>
+
+    <section class="blog-main">
+      {% if site.posts.size > 0 %}
+      <div class="blog-grid">
+        {% for post in site.posts %}
+        <a class="blog-card reveal" href="{{ post.url | relative_url }}">
+          <div class="blog-meta"><span>{{ post.date | date: "%d %b %Y" }}</span><span>{{ post.category | default: "Field note" }}</span></div>
+          <h2>{{ post.title }}</h2>
+          <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
+        </a>
+        {% endfor %}
+      </div>
+      {% else %}
+      <div class="blog-empty">No posts yet. New field notes and project updates will appear here.</div>
+      {% endif %}
+
+      <div class="blog-guide">
+        <h3>Posting is simple</h3>
+        <p>This page is powered by GitHub Pages/Jekyll. To add a new post, create a Markdown file in the <code>_posts</code> folder named <code>YYYY-MM-DD-short-title.md</code>. A ready-to-copy template is included in <code>BLOGGING_GUIDE.md</code>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>© <span id="year"></span> Lungten Dorji</span><span>News · field notes · conservation practice</span></footer>
+  <script src="/script.js"></script>
+</body>
+</html>

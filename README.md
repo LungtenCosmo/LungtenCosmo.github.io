@@ -1,46 +1,27 @@
-# Lungten Dorji — Portfolio Website
+# Lungten Dorji — Portfolio Website V5
 
-A lightweight static portfolio designed for GitHub Pages.
+Version 5 improves the flagship Projects section by displaying each project photograph in full without cropping and adds expanded project descriptions. The News & Blog system, publications, CV and other V4 features are retained.
 
-## Files
-- `index.html` — website content
-- `styles.css` — visual design and mobile layout
-- `script.js` — navigation and subtle scroll animations
-- `assets/` — place your portrait, project photos, CV and PDFs here
+## Project photo behaviour
 
-## Add your portrait
-Save your photo as:
+- Desktop: images are displayed with `object-fit: contain`, so the complete photograph remains visible inside a neutral frame.
+- Tablet/mobile: images switch to their natural aspect ratio.
+- Every project image includes a **View full photo** link that opens the original image.
 
-`assets/profile.jpg`
+# Lungten Dorji — Portfolio Website v3
 
-Then replace the `placeholder-photo` div in `index.html` with:
+GitHub Pages-ready static portfolio.
 
-```html
-<div class="hero-photo" style="background:url('assets/profile.jpg') center/cover no-repeat;"></div>
-```
+## v3 updates
+- Added professional profile portrait to About section.
+- Added 8 uploaded research publications, national reports, books and conservation action plans.
+- Publication rows link directly to bundled PDFs.
+- Added CV PDF to the existing Download CV button.
 
-## Add your CV
-Place your CV at:
+## Publish
+Upload all files and folders to the root of `LungtenCosmo.github.io`, replacing the older website files. Keep the `assets` folder structure unchanged.
 
-`assets/Lungten_Dorji_CV.pdf`
 
-## Update contact details
-Search `index.html` for:
+## Version 4
 
-`YOUR-EMAIL@example.com`
-
-and replace it with your preferred professional email.
-
-Update the Google Scholar, ORCID, ResearchGate, LinkedIn and GitHub links near the bottom of the page.
-
-## Publish on GitHub Pages
-1. Create a new public GitHub repository, e.g. `lungtendorji.github.io`.
-2. Upload all files in this folder to the repository root.
-3. Commit the files.
-4. If the repository is named `lungtendorji.github.io`, GitHub Pages normally serves it from that address. Otherwise enable Pages in the repository settings and deploy from the main branch.
-
-## Recommended next additions
-- Replace gradient project images with your own field photographs.
-- Add individual project pages under a `/projects/` folder.
-- Replace sample research-output titles with exact publications and links.
-- Add a custom domain when ready.
+Version 4 expands the Projects section using the supplied project descriptions and adds a Jekyll-powered **News & Blog** page. To publish a new post, add a Markdown file to `_posts` using the instructions in `BLOGGING_GUIDE.md`.

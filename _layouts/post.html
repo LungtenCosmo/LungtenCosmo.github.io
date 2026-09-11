@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 155 }}" />
+  <title>{{ page.title }} | Lungten Dorji</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/index.html"><span class="brand-mark">LD</span><span>Lungten Dorji</span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav"><a href="/index.html#projects">Projects</a><a href="/index.html#publications">Outputs</a><a href="/news.html">News & Blog</a><a class="nav-cta" href="/index.html#contact">Contact</a></nav>
+  </header>
+  <main class="post-shell">
+    <a class="back-link" href="/news.html">← All news & field notes</a>
+    <article>
+      <header class="post-header">
+        <div class="blog-meta"><span>{{ page.date | date: "%d %B %Y" }}</span><span>{{ page.category | default: "Field note" }}</span></div>
+        <h1>{{ page.title }}</h1>
+        {% if page.subtitle %}<p>{{ page.subtitle }}</p>{% endif %}
+      </header>
+      <div class="post-content">{{ content }}</div>
+    </article>
+  </main>
+  <footer><span>© <span id="year"></span> Lungten Dorji</span><span>Wildlife ecology · conservation science · Bhutan</span></footer>
+  <script src="/script.js"></script>
+</body>
+</html>

@@ -253,10 +253,34 @@ footer { display: flex; justify-content: space-between; gap: 20px; padding: 24px
 .news-teaser p { max-width: 700px; color: var(--muted); font-size: 17px; }
 
 /* News / blog page */
-.blog-hero { padding: 92px clamp(22px,7vw,110px) 60px; background: var(--cream); border-bottom:1px solid var(--line); }
-.blog-hero-inner { max-width: 1050px; }
-.blog-hero h1 { font-family:'Playfair Display',serif; font-size:clamp(58px,8vw,108px); line-height:.98; margin:14px 0 24px; letter-spacing:-.04em; }
-.blog-hero p { max-width:760px; font-size:18px; color:var(--muted); }
+.blog-hero {
+  position: relative;
+  min-height: 650px;
+  display: flex;
+  align-items: center;
+  padding: 92px clamp(22px,7vw,110px) 70px;
+  background:
+    linear-gradient(90deg, rgba(12,35,27,.80) 0%, rgba(12,35,27,.60) 42%, rgba(12,35,27,.18) 72%, rgba(12,35,27,.08) 100%),
+    url('/assets/news/news-hero.jpg') center 58% / cover no-repeat;
+  border-bottom: 1px solid var(--line);
+}
+.blog-hero-inner { max-width: 1050px; position: relative; z-index: 1; }
+.blog-hero .section-label { color: #e9f1e8; }
+.blog-hero h1 {
+  font-family:'Playfair Display',serif;
+  font-size:clamp(58px,8vw,108px);
+  line-height:.98;
+  margin:14px 0 24px;
+  letter-spacing:-.04em;
+  color:#fff;
+  text-shadow:0 2px 18px rgba(0,0,0,.22);
+}
+.blog-hero p {
+  max-width:760px;
+  font-size:18px;
+  color:rgba(255,255,255,.90);
+  text-shadow:0 1px 10px rgba(0,0,0,.20);
+}
 .blog-main { padding: 70px clamp(22px,7vw,110px) 110px; }
 .blog-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px; }
 .blog-card { display:block; background:white; border:1px solid var(--line); border-radius:22px; padding:28px; transition:transform .2s ease, box-shadow .2s ease; }
@@ -343,4 +367,15 @@ footer { display: flex; justify-content: space-between; gap: 20px; padding: 24px
   .project-photo-label { position: static; display: inline-block; margin: 12px 0 0 12px; }
   .project-photo-link { position: static; display: inline-block; margin: 12px 12px 14px; float: right; }
   .project-media::after { content: ''; display: block; clear: both; }
+}
+
+@media (max-width: 700px) {
+  .blog-hero {
+    min-height: 560px;
+    padding-top: 78px;
+    padding-bottom: 54px;
+    background:
+      linear-gradient(90deg, rgba(12,35,27,.82) 0%, rgba(12,35,27,.58) 100%),
+      url('/assets/news/news-hero.jpg') 62% center / cover no-repeat;
+  }
 }

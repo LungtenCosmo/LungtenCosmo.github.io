@@ -6,6 +6,8 @@ category: "Field Notes"
 subtitle: "Community voices, livestock losses and an innovative approach to sustaining human–tiger coexistence in one of Bhutan's important tiger landscapes."
 ---
 
+[← All news & field notes](/news.html)
+
 ![Mangdiphu village in Nubi Gewog](/assets/news/nubi-tiger-coexistence/mangdiphu-village.jpg)
 *Mangdiphu village, on the extreme northern side of Nubi Gewog, within Wangchuck Centennial National Park.*
 

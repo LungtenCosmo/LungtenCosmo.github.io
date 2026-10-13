@@ -4,11 +4,18 @@ title: "Advancing Red Panda Conservation: Sharing Bhutan's Vision at the Interna
 date: 2026-10-13
 category: "Field Notes"
 subtitle: "Presenting Bhutan's Red Panda Conservation Action Plan 2025–2035 and exploring opportunities for Himalayan conservation collaboration"
+image: /assets/news/red-panda-symposium-2026/red-panda-symposium-group-photo.jpg
 ---
+
+![Participants at the International Red Panda Symposium 2026 in Kathmandu](/assets/news/red-panda-symposium-2026/red-panda-symposium-group-photo.jpg)
+*Participants at the International Red Panda Symposium, Kathmandu, Nepal, 5–9 October 2026.*
 
 From **5 to 9 October 2026**, I had the opportunity to participate in the **International Red Panda Symposium 2026**, organized by the **Red Panda Network** in **Kathmandu, Nepal**. The symposium provided a valuable platform to exchange conservation experiences, share ideas and explore opportunities for regional and international collaboration.
 
 My presentation focused primarily on **Bhutan's Red Panda Conservation Action Plan (2025–2035)**, outlining the country's key conservation priorities for this threatened Himalayan species. Beyond presenting Bhutan's approach, the event offered opportunities to exchange ideas with researchers, conservation practitioners and other participants on future partnerships.
+
+![Presenting Bhutan's red panda conservation priorities at the symposium](/assets/news/red-panda-symposium-2026/bhutan-red-panda-action-plan-presentation.jpg)
+*Presenting Bhutan's conservation priorities during the International Red Panda Symposium.*
 
 ## A Decade-Long Vision for Red Panda Conservation
 
@@ -33,6 +40,9 @@ At the same time, wildlife tourism must be carefully planned. Given the species'
 The symposium was also an opportunity to exchange ideas and identify possible areas for cooperation in ecological research, habitat management, wildlife health, community participation and sustainable conservation approaches.
 
 For a species associated with Himalayan ecosystems, sharing experience across conservation programmes and countries can help strengthen the evidence and practical partnerships needed for its long-term protection.
+
+![Exploring the exhibition and discussing conservation-linked products at the symposium](/assets/news/red-panda-symposium-2026/red-panda-symposium-exhibition.jpg)
+*Engaging with exhibitors and exchanging ideas during the symposium.*
 
 ## Moving from Planning to Action
 

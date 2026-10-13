@@ -4,7 +4,11 @@ title: "From Camera Traps to Conservation Evidence: Musk Deer and Takin Survey D
 date: 2026-10-13
 category: "Field Notes"
 subtitle: "A landmark effort to turn national wildlife survey records into broader biodiversity evidence"
+image: /assets/news/mongar-2026/workshop-mongar.jpg
 ---
+
+![Participants at the Mongar survey data analysis and report generation workshop](/assets/news/mongar-2026/workshop-mongar.jpg)
+*Field expertise and analytical collaboration at the Mongar workshop.*
 
 From **27 September to 2 October 2026**, the **Department of Forests and Park Services (DoFPS)** convened a six-day **Musk Deer and Takin Survey Data Analysis and Report Generation Workshop in Mongar**. The workshop was an unprecedented undertaking in its analytical scope: data management, analysis and technical reporting focused not only on the two target species, **musk deer and takin**, but also on other wildlife captured during the camera-trap surveys.
 
@@ -24,7 +28,16 @@ The workshop brought field expertise and analytical skills into the same working
 
 The wider analytical work illustrates the potential of a multi-species approach. The supplied workshop materials include **Bayesian site-use effects** for barking deer, Himalayan goral, Himalayan serow, sambar and wild pig, with modelled relationships involving covariates such as distance to roads, elevation, slope and temperature. Rather than treating these species as incidental records, such analyses extract additional ecological information from the national survey.
 
+![Bayesian site-use effects for ungulate species recorded by camera traps](/assets/news/mongar-2026/site-use-effects.png)
+*Bayesian site-use models exploring environmental and human-related covariates for ungulates recorded in the survey.*
+
 A further example is a **modelled occupancy-probability map for yellow-throated marten**, demonstrating how camera-trap records can support spatially explicit wildlife assessments. The workshop materials also feature a technical report titled *Occupancy, Detection and Activity Patterns of Wild Cats in Bhutan: Evidence from Camera-trap By-catch Data, 2025–2026*. Together, these outputs underline the breadth of biodiversity evidence that can be developed from carefully managed survey data.
+
+![Modelled occupancy probability for yellow-throated marten](/assets/news/mongar-2026/yellow-throated-marten-occupancy.png)
+*Example predicted occupancy map for yellow-throated marten, derived from camera-trap data.*
+
+![Cover of the technical report on wild cats in Bhutan](/assets/news/mongar-2026/wild-cats-report-cover.png)
+*Technical report on occupancy, detection and activity patterns of wild cats from camera-trap by-catch data.*
 
 The figures and maps are examples of analytical outputs; they should not be interpreted as final published musk deer or takin density estimates.
 

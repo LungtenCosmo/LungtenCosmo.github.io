@@ -4,7 +4,11 @@ title: "Tracking Mountain Tigers of Bhutan: When Conservation Meets the Cost of 
 date: 2026-10-18
 category: "Field Notes"
 subtitle: "A field reflection on tiger conservation, livestock losses and the responsibility to support mountain herders"
+image: /assets/news/tracking-mountain-tigers/tiger-pugmark.jpg
 ---
+
+![Large carnivore pawprint recorded during field tracking in Bhutan](/assets/news/tracking-mountain-tigers/tiger-pugmark.jpg)
+*Field signs encountered while tracking mountain tigers in Bhutan.*
 
 Tracking tigers in Bhutan's mountains is a reminder of the extraordinary landscapes that still support one of the world's most remarkable large carnivores. Finding signs of a tiger in the field can be exhilarating. But this work also forces us to confront a more difficult side of conservation.
 
@@ -13,6 +17,9 @@ Recently, while following signs of a tiger, I encountered the aftermath of an at
 ## A Loss That Means More Than One Animal
 
 For mountain herders, a yak or other livestock animal is not simply a number in a herd. It can represent years of investment, household income, food security and a family's livelihood. Losing one to a large carnivore may be a profound economic and emotional setback.
+
+![Documenting livestock depredation with graphic remains obscured](/assets/news/tracking-mountain-tigers/tiger-livestock-depredation-obscured.png)
+*Field documentation of livestock depredation. The graphic portions are intentionally obscured out of respect for viewers and the affected herder.*
 
 Domestic livestock have also, over generations, provided occasional prey to large carnivores in shared landscapes. Many Bhutanese herding communities have traditionally accommodated occasional losses as part of life alongside wildlife. That tolerance is remarkable, but it should never be taken for granted—or used as an excuse to leave families bearing the costs alone.
 
@@ -24,6 +31,9 @@ At the same time, **reliable financial mechanisms**—such as compensation, insu
 
 We should also strengthen the ecological foundations of coexistence by **protecting and restoring habitat for wild prey species**. Healthy wild prey populations can help sustain tigers and other carnivores without depending on livestock losses. Where livestock are taken, that spillover should be recognised as a cost of coexistence, not treated as a substitute for functioning wild prey communities.
 
+![Mountain landscape during wildlife tracking in Bhutan](/assets/news/tracking-mountain-tigers/mountain-tiger-tracking-field.jpg)
+*Reflecting on conservation and coexistence in Bhutan's mountain landscapes.*
+
 ## Conservation That Shares Its Benefits and Costs
 
 The tiger's pawprint is a powerful sign that Bhutan's mountains remain wild. But the grief of a herder who loses a valuable animal is just as real.
@@ -32,4 +42,4 @@ For me, this encounter was a reminder that conservation success cannot be measur
 
 **A future for mountain tigers must also be a future for mountain herders.**
 
-*Field reflection from tiger-tracking work in Bhutan. The accompanying photographs document field signs and mountain landscapes; a graphic image of the livestock loss has intentionally been omitted.*
+*Field reflection from tiger-tracking work in Bhutan. The accompanying photographs document field signs, mountain landscapes and the livestock-loss site; graphic details of the carcass have been obscured.*

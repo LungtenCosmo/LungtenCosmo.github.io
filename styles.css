@@ -379,3 +379,32 @@ footer { display: flex; justify-content: space-between; gap: 20px; padding: 24px
       url('/assets/news/news-hero.jpg') 62% center / cover no-repeat;
   }
 }
+
+
+/* Subtle field photograph behind homepage hero copy.
+   The existing right-hand hero photo and other site imagery remain unchanged. */
+.hero-text {
+  position: relative;
+  isolation: isolate;
+}
+.hero-text::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: -28px -22px;
+  border-radius: 24px;
+  background:
+    linear-gradient(90deg, rgba(252,251,247,.92), rgba(252,251,247,.80)),
+    url("/assets/hero-wildlife-handling-background.jpg") center / cover no-repeat;
+  box-shadow: 0 10px 35px rgba(15,45,30,.035);
+  pointer-events: none;
+}
+@media (max-width: 700px) {
+  .hero-text::before {
+    inset: -18px -12px;
+    border-radius: 16px;
+    background:
+      linear-gradient(90deg, rgba(252,251,247,.94), rgba(252,251,247,.84)),
+      url("/assets/hero-wildlife-handling-background.jpg") center / cover no-repeat;
+  }
+}

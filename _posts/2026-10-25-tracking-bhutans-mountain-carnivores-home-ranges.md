@@ -62,5 +62,9 @@ The tracking data helped reveal how mountain carnivores respond differently to e
 
 This work also reinforced the need to pair technological advances with rigorous fieldcraft, animal welfare and conservation judgement. A GPS collar produces useful locations only because field teams first undertake difficult, careful and humane work in the mountains. The findings can help improve wildlife monitoring, habitat management and conservation planning—while reminding us how much remains to be learned about Bhutan's forest carnivores.
 
+## Related News Coverage: Snow Leopard Movement Ecology
+
+Movement-ecology research in Bhutan continues to expand to other mountain carnivores, including the snow leopard. For related coverage of the ongoing snow leopard movement-ecology study, see [**Bhutan Broadcasting Service (BBS): Snow Leopard Movement Ecology Study**](https://www.bbs.bt/247829/).
+
 *Source: Lungten Dorji, PhD thesis, University of Southampton, Chapter 4, particularly Sections 4.2–4.3 and Table 4.1. The chart presents weighted AKDE estimates and 95% confidence intervals. Precise tracking coordinates and identifiable home-range maps are intentionally excluded to safeguard wildlife.*
 

@@ -3,3 +3,7 @@ url: "https://lungtencosmo.github.io"
 baseurl: ""
 permalink: /news/:year/:month/:day/:title/
 markdown: kramdown
+
+# Google Analytics 4 Measurement ID (example: G-XXXXXXXXXX).
+# Leave blank until your property is created; no data is sent until configured.
+ga_measurement_id: ""
